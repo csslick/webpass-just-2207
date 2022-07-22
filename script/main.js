@@ -38,4 +38,20 @@ $(function(){
     changeSlider(num);
   }, 3000);
 
+
+  // 공지사항/갤러리 tab 버튼
+  $('.tab_buttons .notice-btn').click(function(){
+    // 텝 초기화
+    $('.tab_contents').removeClass('on');
+    // 표시
+    $('#notice').addClass('on');
+  });
+
+  $('.tab_buttons .gallery-btn').click(function(){
+      // 텝 초기화
+      $('.tab_contents').removeClass('on');
+      // 표시
+    $('#gallery').addClass('on');
+  });
+
 }); // $

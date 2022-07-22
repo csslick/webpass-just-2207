@@ -119,4 +119,50 @@ header h1 {
 #main .col {
   outline: 1px solid #666;
   width: 400px;
+  padding: 20px;
+}
+
+#notice ul li {
+  padding: 5px;
+}
+
+#gallery {
+  display: flex;
+}
+
+#gallery a {
+  display: block;
+  outline: 2px solid red;
+}
+
+#gallery a img {
+  width: 100%;
+}
+
+/* 탭 버튼 */
+#main .tab_buttons a.notice-btn,
+#main .tab_buttons a.gallery-btn {
+  outline: 1px solid #333;
+  display: block;
+  padding: 10px;
+}
+
+#main .tab_buttons {
+  display: flex;
+}
+
+#notice {
+  display: none;
+}
+
+#notice.on {
+  display: block;
+}
+
+#gallery {
+  display: none;
+}
+
+#gallery.on {
+  display: flex;
 }
