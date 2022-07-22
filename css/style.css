@@ -23,7 +23,7 @@ ul {
 .container {
   width: 1200px;
   margin: 0 auto;
-  background: #ccc;
+  /* background: #ccc; */
 }
 
 /* header */
@@ -118,9 +118,9 @@ header h1 {
 }
 
 #main .col {
-  outline: 1px solid #666;
+  /* outline: 1px solid #666; */
   width: 400px;
-  padding: 20px;
+  padding: 10px;
 }
 
 #notice ul li {
@@ -172,9 +172,47 @@ header h1 {
 }
 
 #main .banner1, #main .banner2 {
-  padding: 0;
+  /* padding: 0; */
 }
 
-#main {
-  margin-top: 20px;
+#main .col img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  background: #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+footer .footer-logo {
+  width: 200px;
+}
+
+footer .sns {
+  width: 200px;
+}
+
+
+/* 레이어 팝업(모달) */
+.modal {
+  width: 400px;
+  height: 300px;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  position: fixed;
+  left: 50%;
+  top: 20%;
+}
+
+.modal .close-btn {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
 }
