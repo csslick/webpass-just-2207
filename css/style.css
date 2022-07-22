@@ -114,6 +114,7 @@ header h1 {
 /* 콘텐츠 영역 1 */
 #main {
   display: flex;
+  height: 200px;
 }
 
 #main .col {
@@ -123,7 +124,7 @@ header h1 {
 }
 
 #notice ul li {
-  padding: 5px;
+  padding: 3px;
 }
 
 #gallery {
@@ -132,7 +133,9 @@ header h1 {
 
 #gallery a {
   display: block;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
+  padding: 10px;
+  padding-top: 0;
 }
 
 #gallery a img {
@@ -149,6 +152,7 @@ header h1 {
 
 #main .tab_buttons {
   display: flex;
+  margin-bottom: 1em;
 }
 
 #notice {
@@ -165,4 +169,12 @@ header h1 {
 
 #gallery.on {
   display: flex;
+}
+
+#main .banner1, #main .banner2 {
+  padding: 0;
+}
+
+#main {
+  margin-top: 20px;
 }
