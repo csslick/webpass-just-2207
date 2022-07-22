@@ -216,3 +216,15 @@ footer .sns {
   right: 20px;
   bottom: 20px;
 }
+
+
+
+/* 텝버튼 스타일 */
+.tab_buttons > a {
+  background: #fff;
+}
+
+.notice-btn.on,
+.gallery-btn.on {
+  background: #ccc;
+}
